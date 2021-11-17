@@ -2,6 +2,8 @@
 comment0.target=TiendaCoches
 comment1.params=nombrePropietario\ litros\ arrancado
 comment1.target=TiendaCoches(java.lang.String,\ int,\ boolean)
+comment10.params=
+comment10.target=java.lang.String\ obtenerDetalles()
 comment2.params=
 comment2.target=java.lang.String\ getnombrePropietario()
 comment3.params=
@@ -17,5 +19,5 @@ comment7.target=void\ girarLlave()
 comment8.params=
 comment8.target=void\ imprimeDetalles()
 comment9.params=
-comment9.target=boolean\ estadoDelVeh\u00EDculo()
-numComments=10
+comment9.target=boolean\ estadoDelVehiculo()
+numComments=11

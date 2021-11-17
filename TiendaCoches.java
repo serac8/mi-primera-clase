@@ -50,10 +50,21 @@ public class TiendaCoches {
     }
     
     public void imprimeDetalles() {
+        
         System.out.println("Propietario:" + propietario + " | " + "Estado del depósito de gasolina:" + litrosActualesDeGasolina + " | " + "Motor arrancado:" + motorArrancado);
+    
+        
     }
     
-    public boolean estadoDelVehículo() {
+    public boolean estadoDelVehiculo() {
         return motorArrancado;
     }
+    
+    public String obtenerDetalles() {
+    String detalles = "Propietario: " + propietario + "   Estado del deposito de gasolina: " + litrosActualesDeGasolina + "    Motor arrancado: " + motorArrancado;
+    
+    return detalles;
+    }
+    
+    
 }
