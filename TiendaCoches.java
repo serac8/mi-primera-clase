@@ -32,8 +32,8 @@ public class TiendaCoches {
     return motorArrancado;
     }
     
-    public String setpropietario() {
-            return propietario;
+    public void setPropietario(String nuevoPropietario) {
+            propietario = nuevoPropietario;
     }
     
     public void repostarGasolina(int litrosRepostados) {
